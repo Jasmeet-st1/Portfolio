@@ -182,5 +182,8 @@ submitBtn.addEventListener('click',e=>{
     .then(function (message) {
       alert("Mail has been sent successfully")
     });
+  contactForm.elements["email"].value="";
+    contactForm.elements["fullname"].value="";
+    contactForm.elements["message"].value="";
 
 })
