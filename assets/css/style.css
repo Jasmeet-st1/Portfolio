@@ -1440,7 +1440,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   .certification ul li{
-    width:100%
+    width:48%;
   }
   /* testimonials */
 
@@ -1674,6 +1674,10 @@ textarea.form-input::-webkit-resizer { display: none; }
   .form-btn {
     width: max-content;
     margin-left: auto;
+  }
+
+.certification ion-icon{
+    font-size: 20px;
   }
   
 }
